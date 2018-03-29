@@ -16,23 +16,20 @@ turtle.tracer(0, 0)
 
 rainbowColors = ["#FF0000","#FFA600","#FFFF00", "#62FF00", "#1E56FC","#4800FF","#CC00FF","#69C5FF"]
 k=0
+x_start = 990
+y_start = 0
 
-ob.goto(0, 0)
-for j in range(360):
-    ob.color(rainbowColors[rand(0,7)])
-    ob.forward(100)
-    ob.color(bg_color)
-    ob.forward(50)
-    ob.color(rainbowColors[rand(0,7)])
-    ob.forward(100)
-    ob.color(bg_color)
-    ob.forward(50)
-    ob.color(rainbowColors[rand(0,7)])
-    ob.forward(100)
+ob.goto(x_start, y_start)
+for i in range(720):
+    for j in range(60):
+        ob.color(rainbowColors[rand(0,7)])
+        ob.forward(i/10)
+        ob.color(bg_color)
+        ob.forward(i/10)
     ob.penup()
-    ob.goto(0,0)
+    ob.goto(x_start, y_start)
     ob.pendown()
-    ob.left(1)
+    ob.left(0.5)
 
 
 
