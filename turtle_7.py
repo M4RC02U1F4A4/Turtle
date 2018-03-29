@@ -31,9 +31,5 @@ for i in range(720):
     ob.pendown()
     ob.left(0.5)
 
-
-
-
-
 turtle.update()
 turtle.done()

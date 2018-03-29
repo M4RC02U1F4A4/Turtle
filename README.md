@@ -13,3 +13,5 @@ Test with Turtle
 ![alt text](img/5.png "Turtle_5")
 ### Turtle_6
 ![alt text](img/6.png "Turtle_6")
+### Turtle_7
+![alt text](img/7.png "Turtle_7")
