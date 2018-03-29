@@ -9,6 +9,7 @@ turtle.colormode(255)
 ob.hideturtle()
 k=15
 ob.pensize(k)
+turtle.tracer(0, 0)
 
 for i in range(2000):
     r = rand(0, 255)
@@ -20,5 +21,7 @@ for i in range(2000):
         ob.pensize(k)
     ob.forward(0 + i)
     ob.left(91)
+
+turtle.update()
 
 turtle.done()
