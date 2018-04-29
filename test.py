@@ -44,6 +44,5 @@ for i in range(len(x)):
     print(len(x)-i)
 
 
-
 turtle.update()
 turtle.done()
